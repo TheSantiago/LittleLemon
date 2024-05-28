@@ -1,0 +1,211 @@
+section.Specials{
+  background-color: white;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.specialsHead{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.specialsHead>h1{
+  color: #0b0b0c;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.specialsCards{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.specialCard{
+  /* border: #0b0b0c 1px solid; */
+  display: flex;
+  flex-direction: column;
+        border-radius: 0.5rem;
+          box-shadow: 7px 8px 16px -4px rgba(0, 0, 0, 0.5);
+          align-items: center;
+          width: 30%;
+}
+.cardTitlePrice{
+  display: flex;
+  width: 85%;
+  /* padding: 1rem; */
+  align-items: center;
+  justify-content: space-between;
+}
+.cardTitlePrice>h2{
+  margin: 0;
+font-weight: 600;
+}
+.cardTitlePrice>h3{
+margin: 0;
+font-weight: 200;
+}
+.cardTextContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.cardTextContainer>p{
+  width: 85%;
+}
+.specialAction{
+  display: flex;
+  align-items: center;
+  width: 85%;
+  justify-content: flex-start;
+}
+.specialAction>p{
+  font-weight: 500;
+  margin: 0.3rem 0;
+}
+.specialAction>span{
+  margin-left: 0.5rem;
+}
+.specialAction:hover {
+  cursor: pointer;
+}
+.specialAction:hover >span {
+  transition: all ease-in-out 0.1s;
+  margin-left: 1rem;
+  transform: scale(1.2);
+}
+.cardImgContainer{
+      width: 100%;
+      height: 50%;
+      display:flex;
+      justify-content: center;
+}
+.cardImg{
+    object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  section.Specials {
+      background-color: white;
+      height: auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .specialsHead {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+  
+    .specialsHead>h1 {
+      color: #0b0b0c;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+    }
+  
+    .specialsCards {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .specialCard {
+      /* border: #0b0b0c 1px solid; */
+      display: flex;
+      flex-direction: column;
+      border-radius: 0.5rem;
+      box-shadow: 7px 8px 16px -4px rgba(0, 0, 0, 0.5);
+      align-items: center;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .cardTitlePrice {
+      display: flex;
+      width: 85%;
+      /* padding: 1rem; */
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .cardTitlePrice>h2 {
+      margin: 0;
+      font-weight: 600;
+    }
+  
+    .cardTitlePrice>h3 {
+      margin: 0;
+      font-weight: 200;
+    }
+  
+    .cardTextContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+  
+    .cardTextContainer>p {
+      width: 85%;
+    }
+  
+    .specialAction {
+      display: flex;
+      align-items: center;
+      width: 85%;
+      justify-content: flex-start;
+    }
+  
+    .specialAction>p {
+      font-weight: 500;
+      margin: 0.3rem 0;
+    }
+  
+    .specialAction>span {
+      margin-left: 0.5rem;
+    }
+  
+    .specialAction:hover {
+      cursor: pointer;
+    }
+  
+    .specialAction:hover>span {
+      transition: all ease-in-out 0.1s;
+      margin-left: 1rem;
+      transform: scale(1.2);
+    }
+  
+    .cardImgContainer {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .cardImg {
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+}
